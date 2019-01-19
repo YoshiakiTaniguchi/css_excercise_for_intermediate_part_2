@@ -3,6 +3,10 @@
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  * - 背景色を #cccccc とする
  */
+body {
+    background-color: #ccc;
+}
+
 ul {
     padding-inline-start: 0;
 }
@@ -32,7 +36,6 @@ h1 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 /**
@@ -69,7 +72,7 @@ h1 {
 
 /**
  * フレックスアイテム内の画像は親要素の横幅と同じにする(%を使った書き方で記述する)
- */.picture img {
+ */
+ .picture img {
      width: 100%;
-     
  }
